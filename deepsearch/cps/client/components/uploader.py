@@ -30,7 +30,7 @@ class DSApiUploader:
         self,
         project: Union[Project, str],
         source_path: Union[Path, str],
-        tls_verify: bool = True,
+        tls_verify: bool = False,
     ) -> UploadedFile:
         """
         Upload a file to the scratch storage of Deep Search.
